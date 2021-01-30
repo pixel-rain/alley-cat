@@ -1,0 +1,189 @@
+{
+  "name": "Alley Cat",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#282a36",
+    "editor.foreground": "#f8f8f2",
+    "activityBar.foreground": "#ddebeb",
+    "activityBar.inactiveForeground": "#afb1b3",
+    "activityBar.background": "#3b3e40",
+    "activityBar.border": "#282a36",
+    "activityBarBadge.background": "#2c2e2f",
+    "sideBar.background": "#3b3e40",
+    "sideBar.border": "#282a36",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#3b3e40",
+    "statusBar.foreground": "#ddebeb",
+    "statusBar.border": "#323232",
+    "statusBar.noFolderBackground": "#3b3e40",
+    "statusBarItem.remoteBackground": "#3b3e40",
+    "statusBar.debuggingBackground": "#3b3e40",
+    "breadcrumb.background": "#3b3e40",
+    "breadcrumb.foreground": "#afb1b3",
+    "editorGroupHeader.tabsBackground": "#3b3e40",
+    "tab.activeBackground": "#4e5254",
+    "tab.activeForeground": "#c1d2d2",
+    "tab.inactiveBackground": "#3b3e40",
+    "tab.inactiveForeground": "#afb1b3",
+    "tab.border": "#3b3e40",
+    "tab.activeBorder": "#afb1b3"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#999c9e"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
+      "name": "Blue",
+      "scope": [
+        "support.class",
+        "entity.other.attribute-name.class",
+        "entity.name.function",
+        "entity.name.method",
+        "entity.name.type",
+        "meta.class-method entity.name.function",
+        "variable.function.constructor",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#07f2ee"
+      }
+    },
+    {
+      "name": "White",
+      "scope": [
+        "variable",
+        "string constant.other.placeholder",
+        "punctuation",
+        "punctuation.definition.tag",
+        "punctuation.section.embedded",
+        "constant.other.color",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "markup.raw.block.fenced.markdown",
+        "variable.language.fenced.markdown",
+        "punctuation.section.class.end",
+        "source.sass keyword.control",
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
+        "meta.block variable.other",
+        "support.type",
+        "meta.tag"
+      ],
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "name": "Yellow Eyes",
+      "scope": [
+        "support.class.component",
+        "storage.modifier",
+        "storage.type",
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter",
+        "entity.name.module",
+        "variable.import.parameter",
+        "variable.other.class",
+        "markdown.heading",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "meta.object-literal.key",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name",
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#fede5d"
+      }
+    },
+    {
+      "name": "Maybe Pink",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "support.other.variable",
+        "string.other.link",
+        "invalid",
+        "invalid.illegal",
+        "markup.deleted",
+        "source constant.other.object.key string.unquoted.label",
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter",
+        "keyword.other.unit",
+        "keyword.other",
+        "markup.underline",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "text.html.markdown markup.inline.raw.markdown",
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown",
+        "variable.language.this",
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "name": "Light Gray",
+      "scope": [
+        "entity.other.attribute-name",
+        "variable.language",
+        "constant.other.symbol",
+        "constant.other.key",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key string.unquoted.label",
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "entity.name",
+        "support.type",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types",
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "constant.other.reference.link.markdown",
+        "markup.inserted",
+        "markup.changed",
+        "string.regexp",
+        "constant.character.escape",
+        "tag.decorator entity.name.tag",
+        "tag.decorator punctuation.definition.tag",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#c1d2d2"
+      }
+    }
+  ]
+}

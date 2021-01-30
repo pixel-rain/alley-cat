@@ -1,7 +1,7 @@
 {
     "name": "alley-cat",
     "displayName": "Alley Cat",
-    "description": "A simple color theme with an attempt to be both minimal and easy on eyes.",
+    "description": "A simple color theme with an attempt to be both minimal and easy ever on bad eyes. It was inspired by Darcula Dracula, Foxy and SynthWave '84 themes.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
@@ -14,7 +14,7 @@
             {
                 "label": "Alley Cat",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Alley Cat-color-theme.json"
+                "path": "./themes/alley-cat-color-theme.json"
             }
         ]
     }
