@@ -1,7 +1,7 @@
 {
     "name": "alley-cat",
     "displayName": "Alley Cat",
-    "description": "A simple color theme with an attempt to be both minimal and easy ever on bad eyes. It was inspired by Darcula Dracula, Foxy and SynthWave '84 themes.",
+    "description": "A simple color theme with an attempt to be both minimal and easy on eyes. It was inspired by Darcula Dracula, Foxy and SynthWave '84 themes.",
     "version": "0.1.0",
     "publisher": "pixel-rain",
     "engines": {

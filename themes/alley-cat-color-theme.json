@@ -4,14 +4,18 @@
   "colors": {
     "editor.background": "#282a36",
     "editor.foreground": "#f8f8f2",
+    "menu.foreground": "#ddebeb",
+    "contrastBorder": "#3b3e40",
+    "errorForeground": "#ff5555",
     "activityBar.foreground": "#ddebeb",
     "activityBar.inactiveForeground": "#afb1b3",
     "activityBar.background": "#3b3e40",
     "activityBar.border": "#282a36",
+    "activityBar.activeBorder": "#cdd1d1",
     "activityBarBadge.background": "#2c2e2f",
     "sideBar.background": "#3b3e40",
     "sideBar.border": "#282a36",
-    "sideBarTitle.foreground": "#bbbbbb",
+    "sideBarSectionHeader.background": "#3b3e40",
     "statusBar.background": "#3b3e40",
     "statusBar.foreground": "#ddebeb",
     "statusBar.border": "#323232",
@@ -21,6 +25,20 @@
     "breadcrumb.background": "#3b3e40",
     "breadcrumb.foreground": "#afb1b3",
     "editorGroupHeader.tabsBackground": "#3b3e40",
+    "editor.selectionBackground": "#2651a1",
+    "editor.selectionHighlightBackground": "#00000000",
+    "editor.selectionHighlightBorder": "#afb1b3",
+    "editor.wordHighlightBackground": "#00000000",
+    "editor.wordHighlightStrongBackground": "#00000000",
+    "editor.findMatchBackground": "#2651a1",
+    "editor.findMatchHighlightBackground": "#00000000",
+    "editor.findMatchHighlightBorder": "#afb1b3",
+    "editor.lineHighlightBackground": "#424450",
+    "editorWhitespace.foreground": "#797c81",
+    "editor.foldBackground": "#00000000",
+    "editorWarning.foreground": "#50fa7b",
+    "editorBracketMatch.background": "#2f65ca",
+    "editorBracketMatch.border": "#afb1b3",
     "tab.activeBackground": "#4e5254",
     "tab.activeForeground": "#c1d2d2",
     "tab.inactiveBackground": "#3b3e40",
@@ -33,7 +51,6 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#999c9e"
       }
     },
@@ -44,6 +61,13 @@
         "foreground": "#50fa7b"
       }
     },
+    {
+      "name": "Error",
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#ff5555"
+      }
+    }, 
     {
       "name": "Blue",
       "scope": [
@@ -58,6 +82,7 @@
         "variable.function",
         "support.function",
         "keyword.other.special-method",
+        "entity.other.attribute-name.id",
         "entity.other.inherited-class"
       ],
       "settings": {
@@ -82,6 +107,7 @@
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
         "meta.block variable.other",
         "support.type",
+        "entity.name.tag.reference",
         "meta.tag"
       ],
       "settings": {
@@ -145,6 +171,7 @@
         "text.html.markdown",
         "punctuation.definition.list_item.markdown",
         "variable.language.this",
+        "meta.property-value",
         "markup.italic"
       ],
       "settings": {
@@ -161,7 +188,6 @@
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key string.unquoted.label",
-        "source.json meta.structure.dictionary.json support.type.property-name.json",
         "entity.name",
         "support.type",
         "support.orther.namespace.use.php",
@@ -171,7 +197,6 @@
         "support.type.sys-types",
         "text.html.basic entity.other.attribute-name.html",
         "text.html.basic entity.other.attribute-name",
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
         "constant.other.reference.link.markdown",
         "markup.inserted",
         "markup.changed",
@@ -179,10 +204,13 @@
         "constant.character.escape",
         "tag.decorator entity.name.tag",
         "tag.decorator punctuation.definition.tag",
+        "support.variable.property",
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
         "variable.other.property"
       ],
       "settings": {
-        "foreground": "#c1d2d2"
+        "foreground": "#d0dddd"
       }
     }
   ]

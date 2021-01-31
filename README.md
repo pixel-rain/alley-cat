@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "alley-cat"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Alley Cat
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A simple color theme for [Visual Studio Code](http://code.visualstudio.com) with an attempt to be both minimal and easy on eyes. It was inspired by Darcula Dracula, Foxy and SynthWave '84 themes.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Screenshot](/screenshot.png)
 
-**Enjoy!**
+## License
+
+MIT
